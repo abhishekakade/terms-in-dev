@@ -329,4 +329,15 @@ Push - Render - Pre-cache - Lazy-load.
 
 [Source](https://web.dev/apply-instant-loading-with-prpl/)
 
+### Accessibility/a11y - WCAG - POUR -
+
+Web Content Accessibility Guidelines -
+
+- Perceivable
+- Operable
+- Understandable
+- Robust
+
+[WCAG Checklist](https://webaim.org/standards/wcag/checklist)
+
 ---
