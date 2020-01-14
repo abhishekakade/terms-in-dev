@@ -2,6 +2,16 @@
 
 ## Terms/Abbreviations/Mnemonics/etc
 
+### API -
+
+**Application Programming Interface.**
+
+An application programming interface (API) is an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.
+
+An API may be for a web-based system, operating system, database system, computer hardware, or software library.
+
+[Source](https://en.wikipedia.org/wiki/Application_programming_interface)
+
 ### A/B Testing -
 
 A/B testing is a way to compare two versions of a single variable/feature, typically by testing user's response to variant A against variant B, and determining which of the two variants is more effective.
@@ -9,16 +19,6 @@ A/B testing is a way to compare two versions of a single variable/feature, typic
 It is a randomized experiment with two variants, A and B. It includes application of statistical hypothesis testing or **"two-sample hypothesis testing"** as used in the field of statistics.
 
 [Source](https://en.wikipedia.org/wiki/A/B_testing)
-
----
-
-### SSO -
-
-**Server Side Optimisation.**
-
-### SSR -
-
-**Server Side Rendering.**
 
 ---
 
@@ -301,5 +301,32 @@ Parallel computing is a type of computation in which many calculations or the ex
 Concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome. This allows for parallel execution of the concurrent units, which can significantly improve overall speed of the execution in multi-processor and multi-core systems. In more technical terms, concurrency refers to the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units.
 
 [Source](<https://en.wikipedia.org/wiki/Concurrency_(computer_science)>)
+
+---
+
+## Terms mostly seen in Web Development
+
+### PWA -
+
+**Progressive Web App.**
+
+### SSO -
+
+**Server Side Optimisation.**
+
+### SSR -
+
+**Server Side Rendering.**
+
+### PRPL Pattern -
+
+Push - Render - Pre-cache - Lazy-load.
+
+- Push (or preload) the most important resources.
+- Render the initial route as soon as possible.
+- Pre-cache remaining assets.
+- Lazy load other routes and non-critical assets.
+
+[Source](https://web.dev/apply-instant-loading-with-prpl/)
 
 ---
