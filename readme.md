@@ -314,9 +314,17 @@ Concurrency is the ability of different parts or units of a program, algorithm, 
 
 **Server Side Optimisation.**
 
+### CSR -
+
+**What is Client Side Rendering?**
+
+With a client-side rendering solution, when the user opens a website, his browser makes a request to the server, and the user gets a response with a single HTML file without any content, loading screen, etc. It is a blank page until the browser fetches all linked JavaScript files and lets the browser compile everything before rendering the content. - [Source](https://altalogy.com/blog/client-side-rendering-vs-server-side-rendering/)
+
 ### SSR -
 
-**Server Side Rendering.**
+**What is Server Side Rendering?**
+
+Server-side rendering pre-populates a web page with custom user data directly on the server. It renders all the JavaScript on the server rather than on clients browser, which makes it fast at the cost of load on the server and more bandwidth consumption. It is generally faster to make all the requests within a server than making extra browser-to-server round-trips for them. - [Source](https://www.toptal.com/front-end/client-side-vs-server-side-pre-rendering)
 
 ### PRPL Pattern -
 
