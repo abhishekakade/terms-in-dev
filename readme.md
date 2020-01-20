@@ -60,6 +60,16 @@ TDD is a software development process that relies on the repetition of a very sh
 
 ---
 
+### DRY -
+
+**Don't Repeat Yourself** is a principle of software development aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy.
+
+The **DRY** principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system". The principle has been formulated by Andy Hunt and Dave Thomas in their book The Pragmatic Programmer. They apply it quite broadly to include "database schemas, test plans, the build system, even documentation". When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements. Additionally, elements that are logically related all change predictably and uniformly, and are thus kept in sync.
+
+[Source](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+---
+
 ### KISS -
 
 **Keep It Simple, Stupid!**
