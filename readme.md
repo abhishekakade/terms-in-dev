@@ -347,7 +347,9 @@ Push - Render - Pre-cache - Lazy-load.
 
 [Source](https://web.dev/apply-instant-loading-with-prpl/)
 
-### Accessibility/a11y - WCAG - POUR -
+### Accessibility/a11y -
+
+#### WCAG - POUR -
 
 Web Content Accessibility Guidelines -
 
@@ -357,5 +359,31 @@ Web Content Accessibility Guidelines -
 - Robust
 
 [WCAG Checklist](https://webaim.org/standards/wcag/checklist)
+
+#### ARIA -
+
+**Accessible Rich Internet Applications**: sometimes also used as **WAI-ARIA**.
+
+---
+
+### AMP -
+
+**Accelerated Mobile Pages**: a mobile web standard initiated by Google with the purpose of making mobile sites faster.
+
+---
+
+### WYSIWYG -
+
+What You See Is What You Get: A type of content editor that allows users to edit text, images, and other content types without writing any markup.
+
+In a WYSIWYG editor, users can see how the end result will look like while they create the content. The post editor interface of WordPress and most blogging platforms are good examples of WYSIWYG systems.
+
+---
+
+### MVC
+
+**Model-View-Controller**: An architectural pattern used in object-oriented programming.
+
+The MVC pattern keeps the data logic separate from the user interface by grouping objects into three groups: Model Objects for the underlying data structure and logic, View Objects for the user interface, and Controller Objects for acting as intermediary between other objects and for task coordination.
 
 ---
