@@ -182,6 +182,24 @@ The CAP theorem states that in distributed networked systems, architects have to
 
 ---
 
+### Separation of Concerns
+
+The Pragmatic Programmer, one of the best books ever written on Software Engineering, uses the following three terms when talking about **"Separation of Concerns": Orthogonality, Cohesion and Coupling.**
+
+#### Orthogonality
+
+Orthogonality is the idea that modules should be written in a way that a change in one module should not require changes in any other module.
+
+#### Cohesion
+
+Cohesion is a measure of how well the internal contents of a module relate to each other. A cohesive module is one with a single well defined purpose, where all code in the module is related to that purpose. A less cohesive module might have multiple purposes, with pieces of code that are completely unrelated to each other.
+
+#### Coupling
+
+Coupling is a measure of how dependent different modules are on the internal workings of other modules. In a loosely coupled system, any module can be completely rewritten as long as it exposes the same public interface, without any other modules needing to change. In a tightly coupled system, changing the internal details of one module may require changes in many other modules.
+
+---
+
 ### Object Oriented Programming (OOP)
 
 #### SOLID -
