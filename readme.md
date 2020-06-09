@@ -99,6 +99,15 @@ Extreme programming (XP) is a software development methodology which is intended
 
 ---
 
+### POSIX -
+
+The **Portable Operating System Interface (POSIX)** is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
+
+[Source](https://en.wikipedia.org/wiki/POSIX)
+[Simpler Explanation](https://stackoverflow.com/a/1780614/8326599)
+
+---
+
 ### Databases
 
 #### CRUD -
@@ -378,6 +387,14 @@ Push - Render - Pre-cache - Lazy-load.
 - Lazy load other routes and non-critical assets.
 
 [Source](https://web.dev/apply-instant-loading-with-prpl/)
+
+### RAIL Model -
+
+Response - Animation - Idle - Load.
+
+RAIL is a user-centric performance model that breaks down the user's experience into key actions.
+
+[Source](https://developers.google.com/web/fundamentals/performance/rail)
 
 ### Accessibility/a11y -
 
