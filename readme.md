@@ -10,7 +10,7 @@ An application programming interface (API) is an interface or communication prot
 
 An API may be for a web-based system, operating system, database system, computer hardware, or software library.
 
-[Source](https://en.wikipedia.org/wiki/Application_programming_interface)
+[Wiki](https://en.wikipedia.org/wiki/Application_programming_interface)
 
 ### A/B Testing -
 
@@ -18,7 +18,7 @@ A/B testing is a way to compare two versions of a single variable/feature, typic
 
 It is a randomized experiment with two variants, A and B. It includes application of statistical hypothesis testing or **"two-sample hypothesis testing"** as used in the field of statistics.
 
-[Source](https://en.wikipedia.org/wiki/A/B_testing)
+[Wiki](https://en.wikipedia.org/wiki/A/B_testing)
 
 ---
 
@@ -39,9 +39,9 @@ This involves **writing a set of behaviours that the user can expect from the sy
 
 BDD uses examples that are written in a readable and understandable natural language to illustrate the behavior of the system for everyone involved in the development. BDD offers more precise guidance on organizing the conversation between developers, testers and domain experts.
 
-[Source](https://en.wikipedia.org/wiki/Behavior-driven_development)
-[Source](https://www.tutorialspoint.com/behavior_driven_development/behavior_driven_development_quick_guide.htm)
-[YouTube](https://www.youtube.com/watch?v=VS6EEUVZGLE)
+[Wiki](https://en.wikipedia.org/wiki/Behavior-driven_development)
+[TutorialsPoint](https://www.tutorialspoint.com/behavior_driven_development/behavior_driven_development_quick_guide.htm)
+[YouTube - BDD](https://www.youtube.com/watch?v=VS6EEUVZGLE) (length: 4 mins)
 
 ---
 
@@ -56,7 +56,7 @@ BDD uses examples that are written in a readable and understandable natural lang
 
 TDD is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved so that the tests pass.
 
-[Source](https://en.wikipedia.org/wiki/Test-driven_development)
+[Wiki](https://en.wikipedia.org/wiki/Test-driven_development)
 
 ---
 
@@ -66,7 +66,7 @@ TDD is a software development process that relies on the repetition of a very sh
 
 The **DRY** principle is stated as "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system". The principle has been formulated by Andy Hunt and Dave Thomas in their book The Pragmatic Programmer. They apply it quite broadly to include "database schemas, test plans, the build system, even documentation". When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements. Additionally, elements that are logically related all change predictably and uniformly, and are thus kept in sync.
 
-[Source](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+[Wiki](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 
 ---
 
@@ -77,7 +77,7 @@ The **DRY** principle is stated as "Every piece of knowledge must have a single,
 The simpler you keep your projects the easier your life will be when it comes to maintenance.
 KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided.
 
-[Source](https://en.wikipedia.org/wiki/KISS_principle)
+[Wiki](https://en.wikipedia.org/wiki/KISS_principle)
 
 ---
 
@@ -87,7 +87,7 @@ KISS principle states that most systems work best if they are kept simple rather
 
 YAGNI is a principle of Extreme Programming (XP) that states a programmer should not add functionality until deemed necessary. XP co-founder Ron Jeffries has written: "Always implement things when you actually need them, never when you just foresee that you need them."
 
-[Source](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+[Wiki](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 ---
 
@@ -95,7 +95,7 @@ YAGNI is a principle of Extreme Programming (XP) that states a programmer should
 
 Extreme programming (XP) is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of **Agile** software development, **it advocates frequent "releases" in short development cycles**, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
 
-[Source](https://en.wikipedia.org/wiki/Extreme_programming)
+[Wiki](https://en.wikipedia.org/wiki/Extreme_programming)
 
 ---
 
@@ -103,8 +103,8 @@ Extreme programming (XP) is a software development methodology which is intended
 
 The **Portable Operating System Interface (POSIX)** is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
-[Source](https://en.wikipedia.org/wiki/POSIX)
-[Simpler Explanation](https://stackoverflow.com/a/1780614/8326599)
+[Wiki](https://en.wikipedia.org/wiki/POSIX)
+[StackOverflow - Simpler Explanation](https://stackoverflow.com/a/1780614/8326599)
 
 ---
 
@@ -134,7 +134,7 @@ In computer science, **ACID** is a set of properties of **database transactions*
 - **Durability**
   The data operation that was part of the transaction must be reflected in nonvolatile storage (computer memory that can retrieve stored information even when not powered — like a hard disk) and persist after the transaction successfully completes. Transaction failures cannot leave the data in a partially committed state.
 
-  [Source](https://stackoverflow.com/a/3740307/8326599)
+  [StackOverflow](https://stackoverflow.com/a/3740307/8326599)
 
   ***
 
@@ -150,7 +150,7 @@ Example - Data Warehouse.
 - **Soft State** - Stores don't have to be write-consistent, nor do different replicas have to be mutually consistent all the time. The values stored in the system may change because of the eventual consistency model, as described in Eventual Consistency.
 - **Eventual Consistency** - Indicates that the system will become consistent over time, given that the system doesn't receive input during that time (e.g. lazily at read time). As data is added to the system, the system's state is gradually replicated across all nodes. For example, in Hadoop, when a file is written to the HDFS, the replicas of the data blocks are created in different data nodes after the original data blocks have been written. For the short period before the blocks are replicated, the state of the file system isn't consistent.
 
-[Source](https://stackoverflow.com/questions/3342497/explanation-of-base-terminology)
+[StackOverflow](https://stackoverflow.com/questions/3342497/explanation-of-base-terminology)
 
 ---
 
@@ -181,13 +181,24 @@ The CAP theorem states that in distributed networked systems, architects have to
 
 **Simple Object Access Protocol.** It is an XML-based messaging protocol for exchanging information among computers. SOAP is an application of the XML specification.
 
-[Source](https://en.wikipedia.org/wiki/SOAP)
+[Wiki](https://en.wikipedia.org/wiki/SOAP)
 
 ### REST -
 
 **Representational State Transfer** is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, called RESTful Web services, **provide interoperability between computer systems on the Internet**. RESTful Web services allow the requesting systems to access and manipulate textual representations of Web resources by using a uniform and predefined set of stateless operations.
 
-[Source](https://en.wikipedia.org/wiki/Representational_state_transfer)
+[Wiki](https://en.wikipedia.org/wiki/Representational_state_transfer)
+
+---
+
+### RPC - 
+
+**Remote Procedure Call (RPC)** is a protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details. RPC is coded as if it were a normal (local) procedure call, without the programmer explicitly coding the details for the remote interaction. That is, the programmer writes essentially the same code whether the subroutine is local to the executing program, or remote. A procedure call is also sometimes known as a function call or a subroutine call.
+
+This is a form of client–server interaction (caller is client, executor is server), typically implemented via a request–response message-passing system.
+
+[Source](https://searchapparchitecture.techtarget.com/definition/Remote-Procedure-Call-RPC)
+[Wiki](https://en.wikipedia.org/wiki/Remote_procedure_call)
 
 ---
 
@@ -231,7 +242,7 @@ This is a mnemonic for -
   High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g. interfaces).
   Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
 
-[Source](https://en.wikipedia.org/wiki/SOLID)
+[Wiki](https://en.wikipedia.org/wiki/SOLID)
 
 ---
 
@@ -249,7 +260,7 @@ The fundamental notion is that a given object should assume as little as possibl
 
 #### Tell, Don't Ask! (TDA Principle) -
 
-This principle tells that we should not ask object about their state, make decision and only then tell them what to do. Rather we should send commands. Send commands to objects and you will get clean code which is easy to maintain and flexible enough to add new features.
+This principle tells that we should not ask objects about their state, make decision and only then tell them what to do. Rather we should send commands. Send commands to objects and you will get clean code which is easy to maintain and flexible enough to add new features.
 
 ---
 
@@ -265,7 +276,7 @@ A facade can:
 
 - Serve as a launching point for a broader refactor of monolithic or tightly coupled systems **in favor of more loosely coupled code**.
 
-[Source](https://en.wikipedia.org/wiki/Facade_pattern)
+[Wiki](https://en.wikipedia.org/wiki/Facade_pattern)
 
 ---
 
@@ -303,9 +314,9 @@ Coroutines are computer program components that generalize subroutines for non-p
 
   Subroutines are special cases of coroutines. When subroutines are invoked, execution begins at the start, and once a subroutine exits, it is finished; an instance of a subroutine only returns once, and does not hold state between invocations. By contrast, coroutines can exit by calling other coroutines, which may later return to the point where they were invoked in the original coroutine; from the coroutine's point of view, it is not exiting but calling another coroutine. Thus, a coroutine instance holds state, and varies between invocations; there can be multiple instances of a given coroutine at once.
 
-  [Source](https://en.wikipedia.org/wiki/Subroutine)
+  [Wiki](https://en.wikipedia.org/wiki/Subroutine)
 
-[Source](https://en.wikipedia.org/wiki/Coroutine)
+[Wiki](https://en.wikipedia.org/wiki/Coroutine)
 
 ---
 
@@ -319,8 +330,8 @@ An **asynchronous model** allows multiple things to happen at the same time. Whe
 
 At a high level, **asynchronous is the ability to do something while waiting for something else to complete**, and **concurrency is the ability to compute multiple things at the same time**, the big trade off versus **sequential/synchronus** execution being that both asynchronous and concurrent programming add additional complexity.
 
-[Source](<https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)>)
-[Source](https://eloquentjavascript.net/11_async.html)
+[Wiki](<https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)>)
+[EloquentJavaScript](https://eloquentjavascript.net/11_async.html)
 
 ---
 
@@ -328,8 +339,8 @@ At a high level, **asynchronous is the ability to do something while waiting for
 
 Parallel computing is a type of computation in which many calculations or the execution of processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism.
 
-[Source](https://en.wikipedia.org/wiki/Parallel_computing)
-[Parallel Programming Model](https://en.wikipedia.org/wiki/Parallel_programming_model)
+[Wiki](https://en.wikipedia.org/wiki/Parallel_computing)
+[Wiki - Parallel Programming Model](https://en.wikipedia.org/wiki/Parallel_programming_model)
 
 ---
 
@@ -337,7 +348,7 @@ Parallel computing is a type of computation in which many calculations or the ex
 
 Concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome. This allows for parallel execution of the concurrent units, which can significantly improve overall speed of the execution in multi-processor and multi-core systems. In more technical terms, concurrency refers to the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units.
 
-[Source](<https://en.wikipedia.org/wiki/Concurrency_(computer_science)>)
+[Wiki](<https://en.wikipedia.org/wiki/Concurrency_(computer_science)>)
 
 ---
 
@@ -353,7 +364,7 @@ Concurrency is the ability of different parts or units of a program, algorithm, 
 
 -Answer by Kelly Kinkade.
 
-[Source](https://qr.ae/TLomMU)
+[Quora](https://qr.ae/TLomMU)
 
 ## Terms mostly seen in Web Development
 
@@ -434,5 +445,23 @@ In a WYSIWYG editor, users can see how the end result will look like while they 
 **Model-View-Controller**: An architectural pattern used in object-oriented programming.
 
 The MVC pattern keeps the data logic separate from the user interface by grouping objects into three groups: Model Objects for the underlying data structure and logic, View Objects for the user interface, and Controller Objects for acting as intermediary between other objects and for task coordination.
+
+---
+
+### CORS
+
+**Cross-Origin Resource Sharing**: Cross-origin resource sharing **(CORS)** is **a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the first resource was served**. A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos. Certain "cross-domain" requests, notably `Ajax` requests, are **forbidden by default by the same-origin security policy**.
+
+[Wiki](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+[MDN](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
+
+---
+
+### Same-Origin Policy (SOP)
+
+**Same-Origin Policy**: In computing, the same-origin policy (sometimes abbreviated as **SOP**) is an important concept in the web application security model. Under the policy, a **web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin**. An origin is defined as a combination of URI scheme, host name, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
+
+[Wiki](https://en.wikipedia.org/wiki/Same-origin_policy)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 
 ---
