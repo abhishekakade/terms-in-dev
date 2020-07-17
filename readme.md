@@ -40,7 +40,9 @@ This involves **writing a set of behaviours that the user can expect from the sy
 BDD uses examples that are written in a readable and understandable natural language to illustrate the behavior of the system for everyone involved in the development. BDD offers more precise guidance on organizing the conversation between developers, testers and domain experts.
 
 [Wiki](https://en.wikipedia.org/wiki/Behavior-driven_development)
+
 [TutorialsPoint](https://www.tutorialspoint.com/behavior_driven_development/behavior_driven_development_quick_guide.htm)
+
 [YouTube - BDD](https://www.youtube.com/watch?v=VS6EEUVZGLE) (length: 4 mins)
 
 ---
@@ -104,6 +106,7 @@ Extreme programming (XP) is a software development methodology which is intended
 The **Portable Operating System Interface (POSIX)** is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
 [Wiki](https://en.wikipedia.org/wiki/POSIX)
+
 [StackOverflow - Simpler Explanation](https://stackoverflow.com/a/1780614/8326599)
 
 ---
@@ -198,6 +201,7 @@ The CAP theorem states that in distributed networked systems, architects have to
 This is a form of client–server interaction (caller is client, executor is server), typically implemented via a request–response message-passing system.
 
 [Source](https://searchapparchitecture.techtarget.com/definition/Remote-Procedure-Call-RPC)
+
 [Wiki](https://en.wikipedia.org/wiki/Remote_procedure_call)
 
 ---
@@ -331,6 +335,7 @@ An **asynchronous model** allows multiple things to happen at the same time. Whe
 At a high level, **asynchronous is the ability to do something while waiting for something else to complete**, and **concurrency is the ability to compute multiple things at the same time**, the big trade off versus **sequential/synchronus** execution being that both asynchronous and concurrent programming add additional complexity.
 
 [Wiki](<https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)>)
+
 [EloquentJavaScript](https://eloquentjavascript.net/11_async.html)
 
 ---
@@ -340,6 +345,7 @@ At a high level, **asynchronous is the ability to do something while waiting for
 Parallel computing is a type of computation in which many calculations or the execution of processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism.
 
 [Wiki](https://en.wikipedia.org/wiki/Parallel_computing)
+
 [Wiki - Parallel Programming Model](https://en.wikipedia.org/wiki/Parallel_programming_model)
 
 ---
@@ -453,6 +459,7 @@ The MVC pattern keeps the data logic separate from the user interface by groupin
 **Cross-Origin Resource Sharing**: Cross-origin resource sharing **(CORS)** is **a mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the first resource was served**. A web page may freely embed cross-origin images, stylesheets, scripts, iframes, and videos. Certain "cross-domain" requests, notably `Ajax` requests, are **forbidden by default by the same-origin security policy**.
 
 [Wiki](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
+
 [MDN](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
 
 ---
@@ -462,6 +469,7 @@ The MVC pattern keeps the data logic separate from the user interface by groupin
 **Same-Origin Policy**: In computing, the same-origin policy (sometimes abbreviated as **SOP**) is an important concept in the web application security model. Under the policy, a **web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin**. An origin is defined as a combination of URI scheme, host name, and port number. This policy prevents a malicious script on one page from obtaining access to sensitive data on another web page through that page's Document Object Model.
 
 [Wiki](https://en.wikipedia.org/wiki/Same-origin_policy)
+
 [MDN](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 
 ---
